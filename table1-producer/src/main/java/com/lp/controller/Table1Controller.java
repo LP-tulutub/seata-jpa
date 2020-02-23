@@ -109,7 +109,7 @@ public class Table1Controller {
         table3.setName("5");
         table3.setContent("5");
         this.tableService.insByGTError(table2, table3);
-        return "over3";
+        return "over5";
     }
 
     /**
@@ -130,7 +130,7 @@ public class Table1Controller {
         table3.setName("6");
         table3.setContent("6");
         this.tableService.insByGTError(table2, table3);
-        return "over3";
+        return "over6";
     }
 
 }
